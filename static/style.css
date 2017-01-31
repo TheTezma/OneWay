@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	background-color: #B04632;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.panel {
+	background-color: #963C2B;
+	box-shadow:0px 1px 4px rgba(0,0,0,.3);
+	border-radius: 3px;
+	padding: 5px;
+	width: 400px;
+}
+
+.panel_header {
+	font-size: 36px;
+	font-weight: bold;
+	color: #f0f0f0;
+	text-align: center;
+	margin-bottom: 5px;
+	font-family: 'ROboto', sans-serif;
+}
+
+.centered_container {
+	width: 400px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 25vh;
+}
+
+.logo {
+	font-family: 'Indie Flower', cursive;
+	font-size: 42px;
+}
+
+.panel span {
+	color: white;
+}
+
+.form_input {
+	width: calc(100% - 8px);
+	background-color: #893425;
+	border:none;
+	box-shadow: inset 1px 1px 1px #893425;
+	padding: 4px;
+	font-size: 20px;
+	color: white;
+	border-radius: 4px;
+	outline: none;
+	margin:3px 0 3px 0;
+	transition: 0.3s;
+}
+
+.form_input:hover, .form_input:focus {
+	background-color: #7c2e20;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px #893425 inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: white;
+}
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: /*your box-shadow*/,0 0 0 50px #893425 inset;
+    -webkit-text-fill-color: white;
+}
+
+.form_submit {
+	width: 100%;
+	margin-top:4px;
+	padding: 4px;
+	font-size: 32px;
+	color: white;
+	font-weight: 400;
+	border:none;
+	border-radius: 4px;
+	background-color: #893425;
+	margin-bottom: 7px;
+	outline: none;
+	transition: 0.3s;
+}
+
+.form_submit:hover {
+	cursor: pointer;
+	background-color: #7c2e20;
+}
+
+.btn-default {
+	background-color: #893425;
+	padding: 4px;
+	border-radius: 4px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	text-align: center;
+	width: 189.7px;
+	transition: 0.3s;
+}
+
+.btn-default:hover {
+	background-color: #7c2e20;
+}
+
+.footer {
+	background-color: #893425;
+	height: 75px;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	text-align: center;
+}
+
+.footer ul {
+	margin:0 auto;
+	line-height: 75px;
+	width: 400px;
+	text-align: center;
+	padding: 0;
+	height: auto;
+}
+
+.footer ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: #f0f0f0;
+	font-family: 'Roboto', sans-serif;
+	padding: 0 5px;
+}
+
+.footer ul li a {
+	text-decoration: none;
+	color: #f0f0f0;
+}
